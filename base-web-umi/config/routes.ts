@@ -81,6 +81,7 @@ export default [
 		component: './exception/403/403Page',
 		layout: false,
 	},
+	{ path: '/employees', name: 'Quản lý nhân viên', component: './Employee' },
 	{
 		path: '/hold-on',
 		component: './exception/DangCapNhat',
